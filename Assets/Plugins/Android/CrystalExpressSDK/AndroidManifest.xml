@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.crystalexpress.unity"
+    android:versionName="1.0"
+    android:versionCode="1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- (Option) `ACCESS_COARSE_LOCATION` or `ACCESS_FINE_LOCATION` are only needed if you want the device to automatically send the user’s location for targeting.-->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+  <application>
+        <!-- for Intowow SDK integration (Required if using Intowow SDK) -->
+        <meta-data
+            android:name="CRYSTAL_ID"
+            android:value="d6570325df654596950af2600a3904e4" />
+  </application>
+</manifest>
